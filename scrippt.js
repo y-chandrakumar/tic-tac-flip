@@ -325,7 +325,7 @@ grid.addEventListener("click", (event) => {
                         matter.style.color="red";
                         matter.innerHTML=currentPlayer+"'s  turn";
                    
-                },1000)
+                },10)
             }
         })
 
