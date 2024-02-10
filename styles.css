@@ -68,27 +68,10 @@ margin: 0;
     align-items: center;
     color: transparent;
     cursor: pointer;
-   
+   animation: fillEffect 2s linear forwards; /* Animation to slide color */
     font-size: 10vw;
   
 }
-.scell::before {
-    background-size: cover; /* Adjust as needed */
-    background-repeat: no-repeat; /* Adjust as needed */
-    /* padding: auto; */
-    width: 50%;
-    height: 100%;
-    display: flex;
-    border: 0.001vw dotted black;
-    align-items: center;
-    color: transparent;
-    cursor: pointer;
-    font-size: 10vw;
-    background-color:linear-gradient(to right, green 0%, yellow 50%, transparent 50%, transparent 50%);
-    animation: fillEffect 2s linear forwards; /* Animation to slide color */
-  }
-
-
 .btn {
     cursor: pointer; /* Show pointer cursor on hover */
     margin: auto;
