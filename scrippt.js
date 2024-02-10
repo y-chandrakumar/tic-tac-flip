@@ -65,7 +65,7 @@ function checkGameOver() {
 
     let scellbox=document.getElementsByClassName("scell");
 
-
+     acell= ["","","","","","","","",""];
     for(let i=0;i<scellbox.length;i=i+2){
         if(scellbox[i].textContent==")" && scellbox[i+1].textContent=="("){
         acell[i/2]="X";
